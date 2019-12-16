@@ -20,20 +20,20 @@ Certaines dépendances ne seront requises que dans l'environnement de développe
 
 #### Liste des dépendances :
 
--Nom	-Description	-Option
--symfony/orm-pack	
+
+- symfony/orm-pack	
 Tout ce qui nous permettra de discuter avec une base de données	-
--sensio/framework-extra-bundle	
+- sensio/framework-extra-bundle	
 Cela nous permettra de configurer nos routes avec les annotations dans les contrôleurs	-
--doctrine/doctrine-fixtures-bundle	
+- doctrine/doctrine-fixtures-bundle	
 Pour pouvoir remplir notre base de données avec des données de tests	-
--api-platform/api-pack	
+- api-platform/api-pack	
 Pour exposer une API automatiquement à partir d'annotations dans les entités	-
--fzaninotto/faker	
+- fzaninotto/faker	
 Pour générer des données aléatoires mais réalistes dans nos fixtures	-
--symfony/maker-bundle	
+- symfony/maker-bundle	
 Série de commandes à utiliser dans la console pour créer des entités, des contrôleurs, un utilisateurs, etc...	--dev
--symfony/profiler-pack	
+- symfony/profiler-pack	
 En mode dev, nous permettra d'accéder au détail de chaque requête dans le navigateur web	--dev
--symfony/web-server-bundle	
+- symfony/web-server-bundle	
 Pour lancer un serveur en local avec la console	--dev
